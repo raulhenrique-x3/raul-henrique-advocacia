@@ -1,0 +1,118 @@
+.sectionFour {
+  width: 100%;
+  margin-bottom: 32px;
+
+  @media (max-width: 768px) {
+    height: 100%;
+  }
+}
+
+.sectionFourContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    justify-content: unset;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.whyUsImg {
+  position: relative;
+  width: 500px;
+  height: 500px;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.whyUsContent {
+  width: 47%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+    width: 85%;
+    gap: 8px;
+  }
+}
+
+.whyUsIconInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+    padding-bottom: 16px;
+  }
+}
+
+.whyUsTitle {
+  color: #db8e00;
+
+  @media (max-width: 768px) {
+    text-align: center;
+    font-size: clamp(18px, 1.1vw, 32px);
+  }
+
+  @media (min-width: 2560px) {
+    font-size: 2.5rem;
+  }
+}
+
+.whyUsSubTitle {
+  font-family: "Poppins", sans-serif;
+  @media (max-width: 768px) {
+    font-size: clamp(12px, 1.2vw, 14px);
+    text-align: center;
+  }
+}
+
+.whyUsIconTitle,
+.whyUsTitle {
+  font-family: "Merriweather", serif;
+}
+
+.whyUsTitleh2 {
+  font-size: clamp(14px, 1.3vw, 20px);
+  @media (max-width: 768px) {
+    font-size: clamp(14px, 1.1vw, 16px);
+  }
+
+  @media (min-width: 2560px) {
+    font-size: 1.5rem;
+  }
+}
+
+.whyUsSubTitleDesc {
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(11px, 1.2vw, 12px);
+
+  @media (max-width: 768px) {
+    font-size: clamp(12px, 1.2vw, 14px);
+  }
+}
+
+.whyUsIconTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 2px #e8a600 solid;
+}
+
+.whyUsIcon {
+  width: 48px;
+  height: 48px;
+  color: #e8a600;
+
+  @media (max-width: 768px) {
+    width: 32px;
+    height: 32px;
+  }
+}

@@ -1,0 +1,152 @@
+.sectionFive {
+  width: 100%;
+
+  background-color: #290000;
+  @media (max-width: 768px) {
+  }
+}
+
+.sectionFiveContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    padding-bottom: 16px;
+  }
+}
+
+.titleContent {
+  width: 100%;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+    gap: 8px;
+  }
+}
+
+.sectionFiveTitle {
+  font-size: 2rem;
+  font-family: "Merriweather", serif;
+  border-bottom: 2px #e8a600 solid;
+
+  @media (max-width: 768px) {
+    font-size: clamp(18px, 1.1vw, 32px);
+  }
+}
+
+.sectionFiveSubTitle {
+  font-family: "Poppins", sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: clamp(10px, 1.2vw, 14px);
+  }
+}
+
+.sectionFiveTitle,
+.sectionFiveSubTitle {
+  color: #fff;
+}
+
+.ourAttorneys {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+
+  @media (max-width: 768px) {
+    justify-content: unset;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+}
+
+.attorneyFigure {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    height: 100%;
+  }
+}
+
+.attorneyImg {
+  position: relative;
+  width: 350px;
+  height: 25vh;
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 20vh;
+  }
+}
+
+.attorneyInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+
+  @media (max-width: 768px) {
+    gap: 4px;
+    padding: 4px;
+  }
+}
+
+.attorneyName {
+  color: #db8e00;
+  font-family: "Merriweather", serif;
+
+  @media (max-width: 768px) {
+    font-size: clamp(16px, 1.2vw, 20px);
+  }
+}
+
+.attorneyArea {
+  font-size: 0.8rem;
+  color: #505050;
+}
+
+.attorneyDescription {
+  color: #000;
+  font-size: 0.9rem;
+
+  @media (max-width: 768px) {
+    font-size: clamp(12px, 1.2vw, 16px);
+  }
+}
+
+.attorneyArea,
+.attorneyDescription {
+  font-family: "Poppins", sans-serif;
+}
+
+.followUs {
+  display: flex;
+  gap: 8px;
+  color: #db8e00;
+  padding: 0px 8px 8px 8px;
+}
+
+.BsIcon {
+  width: 24px;
+  height: 24px;
+  color: #db8e00;
+  cursor: pointer;
+
+  @media (max-width: 768px) {
+    width: 16px;
+    height: 16px;
+  }
+}

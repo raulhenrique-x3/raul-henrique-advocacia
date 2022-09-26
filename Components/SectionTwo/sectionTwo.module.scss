@@ -1,0 +1,141 @@
+.mainContent02 {
+  width: 100%;
+
+  @media (max-width: 768px) {
+    top: unset;
+  }
+}
+
+.sectionContent02 {
+  width: 100%;
+  background-color: #450000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 32px;
+
+  @media (min-width: 1440px) and (max-width: 2560px) {
+    padding-bottom: 32px;
+  }
+}
+
+.titleContent {
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+    gap: 8px;
+  }
+}
+
+.praticeAreaH1 {
+  color: #fff;
+  font-size: 1.5rem;
+  border-bottom: 2px #e8a600 solid;
+  font-family: "Merriweather", serif;
+
+  @media (max-width: 768px) {
+    font-size: clamp(16px, 1.1vw, 32px);
+  }
+
+  @media (min-width: 2560px) {
+    font-size: 2.5rem;
+  }
+}
+
+.praticeAreaSubtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: #fff;
+
+  @media (max-width: 768px) {
+    font-size: clamp(10px, 1.2vw, 14px);
+  }
+
+  @media (min-width: 2560px) {
+    font-size: 1.5rem;
+  }
+}
+
+.practiceAreas {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.practiceArea {
+  width: 20vw;
+  background-color: #290000;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid #e8a600;
+  border-radius: 5px;
+
+  @media (max-width: 768px) {
+    width: 85%;
+    padding: 8px;
+    height: 150px;
+    gap: 4px;
+  }
+}
+
+.figTitle {
+  @media (max-width: 768px) {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+}
+
+.GoLaw {
+  width: 48px;
+  height: 48px;
+  color: #e8a600;
+
+  @media (max-width: 768px) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.figArea {
+  color: #e8a600;
+  font-family: "Merriweather", serif;
+  font-size: clamp(12px, 1.5rem, 16px);
+
+  @media (max-width: 768px) {
+    font-size: clamp(12px, 1.5rem, 16px);
+  }
+
+  @media (min-width: 1440px) and (max-width: 2560px) {
+    font-size: clamp(12px, 1.5rem, 22px);
+  }
+}
+
+.figAreaSubtitle {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: clamp(8px, 1.2vw, 12px);
+
+  @media (max-width: 768px) {
+    font-size: clamp(11px, 2.5vw, 16px);
+  }
+
+  @media (min-width: 1440px) and (max-width: 2560px) {
+    font-size: clamp(12px, 1.5rem, 18px);
+  }
+}
