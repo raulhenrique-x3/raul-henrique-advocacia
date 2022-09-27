@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { NextPage } from "next";
 import styles from "./header.module.scss";
-import { headerLiHome } from "../../const/headerLiHome";
+import { Link } from "react-scroll";
 import { BsTwitter, BsFacebook, BsInstagram, BsLinkedin, BsBank2, BsList, BsChevronCompactRight } from "react-icons/bs";
 
 export const Header: NextPage = () => {
@@ -27,13 +27,36 @@ export const Header: NextPage = () => {
         </span>
 
         <ul className={showMenu ? styles.headerMenu : styles.headerMenuHidden}>
-          <li className={styles.headerLiHome}>Home</li>
-          {headerLiHome.map((option, index) => (
-            <li className={styles.headerLi} key={index}>
-              {option}
+          <li className={styles.headerLiHome}>
+            <Link activeClass="active" to="home" spy={true} smooth={true} offset={50} duration={500}>
+              Home
+            </Link>
+          </li>
+          <li className={styles.headerLi}>
+            <Link activeClass="active" to="sectionTwo" spy={true} smooth={true} offset={50} duration={500}>
+              Áreas de atuação
               <BsChevronCompactRight className={styles.BsChevronCompactRight} />
-            </li>
-          ))}
+            </Link>
+          </li>
+          <li className={styles.headerLi}>
+            <Link activeClass="active" to="sectionFive" spy={true} smooth={true} offset={50} duration={500}>
+              Advogados
+              <BsChevronCompactRight className={styles.BsChevronCompactRight} />
+            </Link>
+          </li>
+          <li className={styles.headerLi}>
+            <Link activeClass="active" to="footer" spy={true} smooth={true} offset={50} duration={500}>
+              Sobre
+              <BsChevronCompactRight className={styles.BsChevronCompactRight} />
+            </Link>
+          </li>
+          <li className={styles.headerLi}>
+            <Link activeClass="active" to="footer" spy={true} smooth={true} offset={50} duration={500}>
+              Contatos
+              <BsChevronCompactRight className={styles.BsChevronCompactRight} />
+            </Link>
+          </li>
+
           <div className={styles.socialIconsMobile}>
             <BsTwitter className={styles.BsIconMobile} />
             <BsFacebook className={styles.BsIconMobile} />

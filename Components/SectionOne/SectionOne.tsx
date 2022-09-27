@@ -5,7 +5,7 @@ import { ImArrowRight } from "react-icons/im";
 
 export const SectionOne: NextPage = () => {
   return (
-    <section className={styles.mainContent}>
+    <section className={styles.mainContent} id="home">
       <main className={styles.mainSection}>
         <div className={styles.mainImg}>
           <Image

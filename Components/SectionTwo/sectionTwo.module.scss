@@ -1,8 +1,11 @@
 .mainContent02 {
   width: 100%;
+  position: relative;
+  top: 14vh;
 
   @media (max-width: 768px) {
-    top: unset;
+    position: relative;
+    top: 6vh;
   }
 }
 

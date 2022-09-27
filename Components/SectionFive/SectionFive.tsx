@@ -5,7 +5,7 @@ import { AttorneyCard } from "../AttorneyCard/AttorneyCard";
 
 export const SectionFive: NextPage = () => {
   return (
-    <section className={styles.sectionFive}>
+    <section className={styles.sectionFive} id="sectionFive">
       <div className={styles.sectionFiveContent}>
         <span className={styles.titleContent}>
           <h1 className={styles.sectionFiveTitle}>Uma dedicada equipe de advogados!</h1>

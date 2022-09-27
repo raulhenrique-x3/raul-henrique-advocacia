@@ -1,8 +1,12 @@
 .sectionFive {
   width: 100%;
+  position: relative;
+  top: 14vh;
 
   background-color: #290000;
   @media (max-width: 768px) {
+    position: relative;
+    top: 6vh;
   }
 }
 
@@ -99,8 +103,8 @@
   padding: 8px;
 
   @media (max-width: 768px) {
-    gap: 4px;
-    padding: 4px;
+    gap: 8px;
+    padding: 8px;
   }
 }
 

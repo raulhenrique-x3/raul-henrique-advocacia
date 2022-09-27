@@ -1,10 +1,13 @@
 .mainContent {
   width: 100%;
   height: 80vh;
+  position: relative;
+  top: 14vh;
 
   @media (max-width: 768px) {
-    top: unset;
-    height: 60vh;
+    position: relative;
+    top: 6vh;
+    height: 40vh;
   }
 }
 
@@ -13,7 +16,7 @@
   height: 80vh;
 
   @media (max-width: 768px) {
-    height: 60vh;
+    height: 40vh;
   }
 }
 
@@ -25,7 +28,7 @@
   align-items: center;
   position: relative;
   @media (max-width: 768px) {
-    height: clamp(40vh, 60vh, 60vh);
+    height: 40vh;
   }
 }
 

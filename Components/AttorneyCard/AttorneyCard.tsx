@@ -14,7 +14,7 @@ export const AttorneyCard: React.FC<IProps> = ({ src, name, practiceArea, descri
   return (
     <figure className={styles.attorneyFigure}>
       <div className={styles.attorneyImg}>
-        <Image src={src} layout={"fill"} alt={"smiling-confident-businesswoman-posing-with-arms-folded"} />
+        <Image src={src} objectFit={"cover"} layout={"fill"} alt={name} />
       </div>
 
       <div className={styles.attorneyInfo}>

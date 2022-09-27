@@ -7,7 +7,7 @@ import { RiBuilding2Fill } from "react-icons/ri";
 
 export const SectionTwo: NextPage = () => {
   return (
-    <section className={styles.mainContent02}>
+    <section className={styles.mainContent02} id="sectionTwo">
       <main className={styles.sectionContent02}>
         <div className={styles.titleContent}>
           <h1 className={styles.praticeAreaH1}>Áreas de atuação</h1>

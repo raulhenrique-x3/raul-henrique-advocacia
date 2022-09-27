@@ -15,6 +15,7 @@ export const SectionFour: NextPage = () => {
               "/modern-office-building-low-angle-view-of-skyscrapers-in-city-of-singapore-modern-office-building-low-angle-view-of-skyscrapers-in-city-of-singapore.jpg"
             }
             layout={"fill"}
+            objectFit={"cover"}
           />
         </div>
         <div className={styles.whyUsContent}>

@@ -6,7 +6,7 @@ import { ContactInfo } from "../ContactInfo/ContactInfo";
 
 export const Footer: NextPage = () => {
   return (
-    <footer className={styles.footerContent}>
+    <footer className={styles.footerContent} id="footer">
       <main className={styles.footerMain}>
         <div className={styles.footerAboutUs}>
           <span className={styles.footerHeader}>

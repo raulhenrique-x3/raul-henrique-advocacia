@@ -2,8 +2,13 @@
   width: 100%;
   position: relative;
   background-color: #290000;
+  position: relative;
+  top: 14vh;
+
   @media (max-width: 768px) {
     height: 100%;
+    position: relative;
+    top: 6vh;
   }
 }
 
